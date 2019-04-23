@@ -1,6 +1,6 @@
 # react-map-examples
 
-Two rough examples of loading the Google Maps API script for a React component.
+Some rough examples of loading the Google Maps API script for a React component.
 
 State changes over time to demonstrate new markers being added/removed without the map re-rendering.
 
@@ -11,3 +11,7 @@ Uses (the slightly out dated) [react-async-script-loader](https://github.com/leo
 ### Map Two
 
 Uses ye olde script tag creation and event listeners to update state when the scripts have loaded before initialising the map and rendering child markers.
+
+### Map Three
+
+Google map API JS loaded using the [useScript](https://usehooks.com/useScript/) from [usehooks.com](https://usehooks.com/useScript/).
